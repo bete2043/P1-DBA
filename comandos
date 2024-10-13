@@ -1,0 +1,8 @@
+Primero lanzo
+
+java -cp jade.jar jade.Boot -name dba_server -gui 
+en el directorio donde esta del jadejar que esta en el lib
+
+Despues en otra terminal lanzo
+
+java -cp dist/Pr1-HelloWolrd.jar jade.Boot -container  mjcobo:Pr1HelloWorld.BasicHelloWorldAgent
